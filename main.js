@@ -568,7 +568,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', () => {
     setTimeout(() => {
       if (loader) loader.classList.add('loaded');
-    }, 200);    
+    }, 100);    
   });
 
   if (document.readyState === 'complete') {
