@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surakshyan Dzn</title>
+  <meta name="description" content="Personal portfolio of Surakshyan Khanal (Surakshyan Dzn). Focusing on gaming content design, Esports branding, motion graphics, and visual storytelling.">
+  
+  <!-- SEO / Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Surakshyan Dzn — Creative Portfolio">
+  <meta property="og:description" content="Personal portfolio of Surakshyan Dzn (Surakshyan Dzn). Focusing on gaming content design, Esports branding, motion graphics, and visual storytelling.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@700;800&family=Space+Mono&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader" class="loader">
+    <div class="loader-content">
+      <h1 class="loader-logo"><span class="logo-bold">Surakshyan Dzn</span><span class="logo-light"> - Visual Designer</span></h1>
+    </div>
+  </div>
+
+  <!-- Header 
+  <header class="site-header">
+    <div class="header-logo">
+      <a href="#" id="logo-link">Surakshyan Dzn</a>
+    </div> 
+    
+    <div class="header-links">
+      <a href="https://www.instagram.com/surakshyan.dzn/" target="_blank" rel="noopener noreferrer" class="link-social">Instagram</a>
+      <a href="mailto:contact@surakshyandzn.com" class="link-contact">E-mail</a>
+    </div>
+  </header> -->
+
+  <!-- Main Viewport Scroll Container -->
+  <main class="viewport-container" id="viewport">
+    <div class="drift-container" id="drift-container">
+      <div class="scroll-track" id="scroll-track">
+        <!-- Project cards will be dynamically injected here by main.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Central Landing Badge -->
+  <div class="center-badge-wrap">
+    <button class="center-badge" id="badge-trigger" aria-label="Show details">Surakshyan Dzn</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-right">
+      <span>© Copyright Reserved Surakshyan Designs</span>
+    </div>
+  </footer>
+
+  <!-- Details Overlay -->
+  <div class="details-overlay" id="details-overlay">
+    <div class="details-modal">
+      <button class="close-btn" id="close-details" aria-label="Close details">×</button>
+      <h2 class="details-title">Surakshyan Dzn</h2>
+      <p class="details-bio">Helping businesses stand out in a crowded world through strategic design and creative thinking.
+I combine branding, content creation, and visual storytelling to build memorable experiences.
+Focused on creating value, not just visuals.</p>
+      <div class="details-links">
+        <a href="mailto:contact@surakshyandzn.com">surakshyancreates.np@gmail.com</a>
+        <a href="https://www.instagram.com/surakshyan.dzn/" target="_blank" rel="noopener noreferrer">Instagram: @surakshyan.dzn</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Overlay -->
+  <div class="lightbox-overlay" id="lightbox-overlay">
+    <div class="lightbox-content">
+      <div class="lightbox-image-wrap">
+        <div id="lightbox-img-box" class="lightbox-img-box">
+          <button class="close-lightbox-btn" id="close-lightbox" aria-label="Close image">×</button>
+          <img src="" alt="" id="lightbox-img" class="lightbox-img">
+          <iframe src="" id="lightbox-video-iframe" class="lightbox-video-iframe" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="display: none;"></iframe>
+        </div>
+      </div>
+      <div class="lightbox-caption">
+        <div class="lightbox-caption-top">
+          <span id="lightbox-title" class="lightbox-title"></span>
+          <span id="lightbox-year" class="lightbox-year"></span>
+        </div>
+        <div class="lightbox-caption-bottom">
+          <span id="lightbox-category" class="lightbox-category"></span>
+          <span id="lightbox-subtitle" class="lightbox-subtitle"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor" id="custom-cursor"></div>
+
+  <!-- Scripts -->
+  <script src="projects.js?v=2"></script>
+  <script src="main.js?v=2"></script>
+</body>
+</html>
